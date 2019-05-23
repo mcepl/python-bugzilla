@@ -14,9 +14,8 @@ from .base import Bugzilla
 from .transport import BugzillaError
 from .rhbugzilla import RHBugzilla
 from .oldclasses import (Bugzilla3, Bugzilla32, Bugzilla34, Bugzilla36,
-        Bugzilla4, Bugzilla42, Bugzilla44,
-        NovellBugzilla, RHBugzilla3, RHBugzilla4)
-
+        Bugzilla4, Bugzilla42, Bugzilla44, NovellBugzilla, RHBugzilla3,
+        RHBugzilla4)
 
 # This is the public API. If you are explicitly instantiating any other
 # class, using some function, or poking into internal files, don't complain
